@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form>
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome">
+            
+            <br>
+            <label for="dtn">Data de nascimento:</label>
+            <input type="date" id="dtn">
+
+            <br>
+            <label for="End">Endereço:</label>
+            <input type="End" id="End">
+
+            <br>
+            <label for="Bai">Bairro:</label>
+            <input type="Bai" id="Bai">
+            <label for="cid">Cidade:</label>
+            <input type="text" id="Cid">
+
+            <br>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep">
+            <label for="est">Estado:</label>
+            <select id="est" name="Estado">
+                <option value="ce">Ceará</option>
+                <option value="al">Alagoas</option>
+                <option value="sp">São Paulo</option>
+            </select>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <form>
+            Natureza do cargo
+            <br>
+            <input type="radio" id="ndc"> Gerência
+            <input type="radio" id="ndc"> Financeiro
+            <input type="radio" id="ndc"> Recepção
+            <input type="radio" id="ndc"> Administrativo
+            <input type="radio" id="ndc"> Jurídico
+
+            <legend>Àrea de Interesse</legend>
+            <input type="checkbox" id="adi">Computação
+            <input type="checkbox" id="adi">Química
+            <input type="checkbox" id="adi">Meio Ambiente
+            <input type="checkbox" id="adi">Engemharia
+            <input type="checkbox" id="adi">Matemática
+
+            <p>Mini-Currículo</p>
+            <textarea name="minicurriculo" rows="5" cols="50"></textarea>
+
+        </form>
+    </fieldset>
+</body>
+</html>
